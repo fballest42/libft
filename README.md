@@ -6,9 +6,7 @@ Badge42
 🚀 Dynamically generated 42 badge for your git readmes.
 
 💡 42 Stats Card!
-Copy-paste this into your markdown content, and that&aposs it. Simple!
 
-*markdown
 BANNER PRINCIPAL
 
 [![fballest's 42 stats](https://badge42.vercel.app/api/v2/cl45d74de005409l9l5r3ozl6/stats?cursusId=21&coalitionId=66)](https://github.com/JaeSeoKim/badge42)
@@ -114,7 +112,7 @@ EXAM RANK 02
 FT_PRINTF
 [![fballest's 42 ft_printf Score](https://badge42.vercel.app/api/v2/cl45d74de005409l9l5r3ozl6/project/1640521)](https://github.com/JaeSeoKim/badge42)
 
-*markdown
+
 NETWHAT
 [![fballest's 42 netwhat Score](https://badge42.vercel.app/api/v2/cl45d74de005409l9l5r3ozl6/project/1633121)](https://github.com/JaeSeoKim/badge42)
 
