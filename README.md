@@ -1,15 +1,12 @@
 # libft
 
-### 42 Cursus, Libft Library is a the first project in 42 Madrid, that requires us to recreate some C functions for use in future projects. It will be growing with our new own functions as we advance in the 42 cursus. You can find the [spanish][1] or [english][2] subject of this project to know more about it. 
+### 42 Cursus, Libft Library is a the first project in 42 Madrid, that requires us to recreate some C functions for use in future projects. It will be growing with our new own functions as we advance in the 42 cursus. You can find the [spanish][1] or [english][2] subject of this project to know more about it.
 
-[List of functions](#list-of-functions)
+### Graded:
 
-#### Libft Functions:** Some of the standard C functions
-#### Additional functions:** Functions that will be useful for later projects
-#### Bonus Functions:** Functions that will be useful for linked list manipulation
+[![fballest's 42 Libft Score](https://badge42.vercel.app/api/v2/cl45d74de005409l9l5r3ozl6/project/1618808)](https://github.com/JaeSeoKim/badge42)
 
-
-### List of functions
+### List of functions:
 Libft functions | Additional functions | Bonus Functions | 
 :----------- | :-----------: | :-----------: | 
 [ft_memset](#ft_memset)		|[ft_substr](#ft_substr)    | [ft_lstnew](#ft_lstnew)            |  
