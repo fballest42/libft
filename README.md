@@ -306,14 +306,18 @@ Description | Param. #1 | Param. #2 | Return Value
 Applies the function f to each character of the string passed as argument to create a new string (with malloc) resulting from successive applications of f |The string on which to iterate| The function to apply to each character| The string created from the successive applications of f. Returns NULL if the allocation fails
 
 #### [ft_atoi](libft/ft_itoa.c)
-Prototype: `char   ft_itoa(int n)` Original funtion: `itoa in string.h library.` 
+Prototype: `char   ft_itoa(int n)`
+
+Original funtion: `itoa in string.h library.` 
 
 Description | Param. #1 | Return Value
 :-----------: | :-----------: | :-----------:
 Allocates (with malloc) and returns a string representing the integer received as an argument. Negative numbers must be handled | The integer to convert | The string representing the integer. NULL if the allocation fails.
 
-#### [ft_atoi](libft/ft_atolli.c)
-Prototype: `long long int       ft_atolli(const char *str)` Original funtion: `atoll in string.h library.`
+#### [ft_atolli](ft_atolli.c)
+Prototype: `long long int       ft_atolli(const char *str)`
+
+Original funtion: `atoll in string.h library.`
 
 Description | Param. #1 | Return Value
 :-----------: | :-----------: | :-----------:
