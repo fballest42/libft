@@ -6,7 +6,7 @@
 /*   By: fballest <fballest@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/13 10:14:57 by fballest          #+#    #+#             */
-/*   Updated: 2021/11/09 23:04:37 by fballest         ###   ########.fr       */
+/*   Updated: 2022/06/10 12:14:40 by fballest         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,7 @@
 # define LIBFT_H
 
 # include <stdlib.h>
+# include <stdio.h>
 # include <string.h>
 # include <unistd.h>
 
@@ -74,7 +75,7 @@ int			get_next_line(int fd, char **line);
 long int	ft_atolli(const char *str);
 char		*ft_strchr2(const char *str, char c);
 char		*ft_strtok(const char *str, char c);
-int     	ft_matrixlines(char **str);
-void	    ft_matrixfree(void **str);
+int			ft_matrixlines(char **str);
+void		ft_matrixfree(void **str);
 
 #endif
