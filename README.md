@@ -39,6 +39,41 @@ Libft functions | Additional functions | Bonus Functions |
 [ft_calloc](#ft_calloc)     |   | |
 
 
+
+### List of functions
+Libc functions | Additional functions | Bonus Functions | Personal Functions
+:----------- | :-----------: | :-----------: | -----------:
+[ft_memset](#ft_memset)		|[ft_substr](#ft_substr)    | [ft_lstnew](#ft_lstnew)            | [ft_atolli](#ft_atolli) 
+[ft_bzero](#ft_bzero)		|[ft_strjoin](#ft_strjoin)  | [ft_lstadd_front](#ft_lstadd_front)| [ft_matrixfree](#ft_matrixfree) 
+[ft_memcpy](#ft_memcpy)		|[ft_strtrim](#ft_strjoin)  | [ft_lstsize](#ft_lstsize)          | [ft_matrixlines](#ft_matrixlines)   
+[ft_memccpy](#ft_memccpy)	|[ft_split](#ft_split)      | [ft_lstlast](#ft_lstlast)          | [ft_strchr2](#ft_strchr2)
+[ft_memmove](#ft_memmove)	|[ft_itoa](#ft_itoa)       | [ft_lstadd_back](#ft_lstadd_back)  | [ft_strtok](#ft_strtok)
+[ft_memchr](#ft_memchr)		|[ft_strmapi](#ft_strmapi)  | [ft_lstdelone](#ft_lstdelone)     | [get_next_line](#get_next_line) 
+[ft_memcmp](#ft_memcmp)		|[ft_putchar_fd](#ft_putchar_fd)| [ft_lstclear](#ft_lstclear)    | 
+[ft_strlen](#ft_strlen)		|[ft_putstr_fd](#ft_putstr_fd)	| [ft_lstiter](#ft_lstiter)      | 
+[ft_strdup](#ft_strdup)		|[ft_putendl_fd](#ft_putendl_fd)| [ft_lstmap](#ft_lstmap)        | 
+[ft_strcpy](#ft_strcpy)		|[ft_putnbr_fd](#ft_putnbr_fd)	|				| 
+[ft_strlcpy](#ft_strlcpy)	| 	|			| 
+[ft_strcat](#ft_strcat)		| 	| | 
+[ft_strlcat](#ft_strlcat)	| 	| | 
+[ft_strchr](#ft_strchr)		| 	| | 
+[ft_strrchr](#ft_strrchr)	| 	| | 
+[ft_strstr](#ft_strstr)		|   | | 
+[ft_strnstr](#ft_strnstr)	| 	| | 
+[ft_strcmp](#ft_strcmp)		| 	| | 
+[ft_strncmp](#ft_strncmp)	| 	| | 
+[ft_atoi](#ft_atoi)         | 	| | 
+[ft_isalpha](#ft_isalpha)	| 	| | 
+[ft_isdigit](#ft_isdigit)	| 	| |
+[ft_isalnum](#ft_isalnum)	|   | | 
+[ft_isascii](#ft_isascii)	|   | | 
+[ft_isprint](#ft_isprint)	|   | | 
+[ft_toupper](#ft_toupper)   |   | | 
+[ft_tolower](#ft_tolower)	|   | | 
+[ft_calloc](#ft_calloc)     |   | |
+
+
+
 #### [ft_memset](libft/ft_memset.c)
 Prototype: `void       *ft_memset(void *s, int c, size_t len)` Original funtion: `memset in string.h library.` 
 
@@ -270,12 +305,19 @@ Description | Param. #1 | Param. #2 | Return Value
 :-----------: | :-----------: | :-----------: | :-----------:
 Applies the function f to each character of the string passed as argument to create a new string (with malloc) resulting from successive applications of f |The string on which to iterate| The function to apply to each character| The string created from the successive applications of f. Returns NULL if the allocation fails
 
-#### [ft_atoi](libft/ft_atoi.c)
+#### [ft_atoi](libft/ft_itoa.c)
 Prototype: `char   ft_itoa(int n)` Original funtion: `itoa in string.h library.` 
 
 Description | Param. #1 | Return Value
 :-----------: | :-----------: | :-----------:
 Allocates (with malloc) and returns a string representing the integer received as an argument. Negative numbers must be handled | The integer to convert | The string representing the integer. NULL if the allocation fails.
+
+#### [ft_atoi](libft/ft_atolli.c)
+Prototype: `long long int       ft_atolli(const char *str)` Original funtion: `atoll in string.h library.`
+
+Description | Param. #1 | Return Value
+:-----------: | :-----------: | :-----------:
+Convert a string to a long long integer | The string to be converted to long long int | The converted value
 
 
 
