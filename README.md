@@ -2,6 +2,10 @@
 
 ### 42 Cursus, Libft Library is a the first project in 42 Madrid, that requires us to recreate some C functions for use in future projects. It will be growing with our new own functions as we advance in the 42 cursus. You can find the [spanish](es.subject.pdf) or [english](en.subject.pdf) subject of this project to know more about it.
 
+### How to use it:
+
+You can include this library to the project to work with, and compile it with the makefile before to work with. After that you must include libft.h as header to use this funtions in your program or project.
+
 ### Graded:
 
 [![fballest's 42 Libft Score](https://badge42.vercel.app/api/v2/cl45d74de005409l9l5r3ozl6/project/1618808)](https://github.com/JaeSeoKim/badge42)
