@@ -395,9 +395,8 @@ Description | Param. #1 | Param. #2 | Return Value
 Reads the characters of a file descriptor, till it finds '\n' or the end of file | File descriptor number | double pointer to the line | Return 0 if it fails or 1 if the execution of the funtions is ok, some mistakes on the funtion execution returns -1.
 
 
-[1]: Enlace al subject en español 
-[2]: Enlace al subject en ingles
-[3]: Enlace
+[1]: (https://github.com/fballest42/libft/blob/master/es.subject.pdf)
+[2]: (https://github.com/fballest42/libft/blob/master/en.subject.pdf)
 
 
 
