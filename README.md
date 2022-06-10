@@ -45,7 +45,7 @@ Libft functions | Additional functions | Bonus Functions | Personal Functions
 
 #### [ft_memset](ft_memset.c)
 Prototype: `void       *ft_memset(void *s, int c, size_t len)`
-Original funtion: `memset in string.h library.` 
+ Original funtion: `memset in string.h library.` 
 
 Description | Param. #1 | Param. #2 | Param. #3 | Return Value
 :-----------: | :-----------: | :-----------: | :-----------: | :-----------:
