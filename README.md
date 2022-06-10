@@ -8,7 +8,7 @@
 
 ### List of functions:
 
-The funtions are divided in 4 categories. Libft, Additional, Bonus and Personal funtions. Libft and additional are the mandatory part to aprobed this project. Bonus funtions are optional, all the funtions in this block is designed to work with list. Personal funtions are funtions that I have added to my libft as I needed during the development of other projects.
+The funtions are divided in 4 categories. Libft, Additional, Bonus and Personal funtions. Libft and additional are the mandatory part to aprobed this project. Bonus funtions are optional, all the funtions in this block is designed to work with list. Personal funtions are funtions that I have added to my libft as I needed during the development of other projects or becuase we can not use the original one.
 
 Libft functions | Additional functions | Bonus Functions | Personal Functions
 :----------- | :-----------: | :-----------: | -----------:
@@ -45,7 +45,8 @@ Libft functions | Additional functions | Bonus Functions | Personal Functions
 
 #### [ft_memset](ft_memset.c)
 Prototype: `void       *ft_memset(void *s, int c, size_t len)`
- Original funtion: `memset in string.h library.` 
+
+Original funtion: `memset in string.h library.` 
 
 Description | Param. #1 | Param. #2 | Param. #3 | Return Value
 :-----------: | :-----------: | :-----------: | :-----------: | :-----------:
@@ -364,6 +365,34 @@ Description | Param. #1 | Return Values
 :-----------: | :-----------: | :-----------:
 Calculates the number of lines of the matrix pointed to by str	| The matrix to calculate | Number of lines in the matrix pointed to by str
 
+#### [ft_matrixfree](ft_matrixfree.c) 
+Prototype: `void    ft_matrixfree(void **str)`
+
+Description | Param. #1 | Return Values
+:-----------: | :-----------: | :-----------:
+Free the allocated memory of a matrix	| The matrix to be free | No value returned
+
+
+#### [ft_strchr2](ft_strchr2.c)
+Prototype: `char	*ft_strchr2(const char *str, char c)`
+
+Description | Param. #1 | Param. #2 | Return Value
+:-----------: | :-----------: | :-----------: | :-----------:
+Locates the first occurrence of 'c' in the string pointed to by 'str'. The terminating null character is considered to be part of the string, therefore if 'c' is '\0', locates the terminating '\0'| Pointer to string | Character to be located | Return a new string ended by '\0' form str begining it in the next character to c in str to the end.
+
+#### [ft_strtok](ft_strtok.c)
+Prototype: `char	*ft_strtok(const char *str, char c)`
+
+Description | Param. #1 | Param. #2 | Return Value
+:-----------: | :-----------: | :-----------: | :-----------:
+Locates the first occurrence of 'c' in the string pointed to by 'str'. The terminating null character is considered to be part of the string, therefore if 'c' is '\0', locates the terminating '\0'| Pointer to string | Character to be located | Return a new string ended by '\0', from the begining of the original string to this character on str (not included in the new string) or NULL if the character is not found
+
+#### [get_next_line](get_next_line.c)
+Prototype: `int	get_next_line(int fd, char **line)`
+
+Description | Param. #1 | Param. #2 | Return Value
+:-----------: | :-----------: | :-----------: | :-----------:
+Reads the characters of a file descriptor, till it finds '\n' or the end of file | File descriptor number | double pointer to the line | Return 0 if it fails or 1 if the execution of the funtions is ok, some mistakes on the funtion execution returns -1.
 
 
 [1]: Enlace al subject en español 
