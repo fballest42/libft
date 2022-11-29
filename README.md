@@ -2,7 +2,7 @@
 
 ### What is Libft Library?:
 
-is a the first project in 42 Madrid, that requires us to recreate some C functions for use in future projects. It will be growing with our new own functions as we advance in the 42 cursus. You can find the [Spanish](subject/es.subject.pdf) or [English](subject/en.subject.pdf) subject of this project to know more about it.
+is a the first project in 42 Madrid, that requires us to recreate some C functions for use in future projects. It will be growing with our new own functions as we advance in the 42 cursus. You can find the [Spanish](subjects/es.subject.pdf) or [English](subjects/en.subject.pdf) subject of this project to know more about it.
 
 ### How to use it:
 
